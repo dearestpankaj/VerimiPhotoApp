@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C28219D4-592F-496E-A0D4-E5BE50190E30"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08BE0C4A-615B-4479-9D08-5DE0228BF827"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "photos"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "08BE0C4A-615B-4479-9D08-5DE0228BF827 - e731ae811aaa11a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for VerimiPhotoApp.PhotoRemoteProvider.photos.getter : Swift.Array&lt;VerimiPhotoApp.Photo&gt;"
+                  moduleName = "VerimiPhotoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/Practice/VerimiPhotoApp/VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "08BE0C4A-615B-4479-9D08-5DE0228BF827 - e34905c217a7b697"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for VerimiPhotoApp.PhotoRemoteProvider.photos.getter : Swift.Array&lt;VerimiPhotoApp.Photo&gt;"
+                  moduleName = "VerimiPhotoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/Practice/VerimiPhotoApp/VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "08BE0C4A-615B-4479-9D08-5DE0228BF827 - 15d46e59c80ada4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for VerimiPhotoApp.PhotoRemoteProvider.photos.getter : Swift.Array&lt;VerimiPhotoApp.Photo&gt;"
+                  moduleName = "VerimiPhotoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/Practice/VerimiPhotoApp/VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "08BE0C4A-615B-4479-9D08-5DE0228BF827 - 50568afa53ec0b9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for VerimiPhotoApp.PhotoRemoteProvider.photos.getter : Swift.Array&lt;VerimiPhotoApp.Photo&gt;"
+                  moduleName = "VerimiPhotoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/Practice/VerimiPhotoApp/VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F56450E7-5ADF-4519-BB1A-2C082CBDE32B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "photos"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F56450E7-5ADF-4519-BB1A-2C082CBDE32B - 5e24343e3fabc343"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VerimiPhotoApp.PhotoRemoteProvider.photos.getter : Swift.Array&lt;VerimiPhotoApp.Photo&gt;"
+                  moduleName = "VerimiPhotoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/Practice/VerimiPhotoApp/VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "F56450E7-5ADF-4519-BB1A-2C082CBDE32B - e731ae811aaa11c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for VerimiPhotoApp.PhotoRemoteProvider.photos.getter : Swift.Array&lt;VerimiPhotoApp.Photo&gt;"
+                  moduleName = "VerimiPhotoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/Practice/VerimiPhotoApp/VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9694175C-8EF5-4CCA-A397-E4D56F5F2056"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "photos"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9694175C-8EF5-4CCA-A397-E4D56F5F2056 - 5e24343e3fabc343"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VerimiPhotoApp.PhotoRemoteProvider.photos.getter : Swift.Array&lt;VerimiPhotoApp.Photo&gt;"
+                  moduleName = "VerimiPhotoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/Practice/VerimiPhotoApp/VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "9694175C-8EF5-4CCA-A397-E4D56F5F2056 - e731ae811aaa11c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for VerimiPhotoApp.PhotoRemoteProvider.photos.getter : Swift.Array&lt;VerimiPhotoApp.Photo&gt;"
+                  moduleName = "VerimiPhotoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/Practice/VerimiPhotoApp/VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17EF2CB9-81D3-4BCE-A780-D756104A83CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VerimiPhotoApp/Modules/ImageGallery/Data/DataDource/PhotoRemoteProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "photos"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

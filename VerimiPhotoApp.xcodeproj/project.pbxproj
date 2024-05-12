@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152EED502BF01636005F2B58 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EED4F2BF01636005F2B58 /* ErrorWrapper.swift */; };
+		152EED582BF0B9A3005F2B58 /* PhotoGalleryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EED572BF0B9A3005F2B58 /* PhotoGalleryViewModelTests.swift */; };
+		152EED5B2BF0D4A6005F2B58 /* TestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EED5A2BF0D4A6005F2B58 /* TestDownloader.swift */; };
+		152EED5D2BF0D4B3005F2B58 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EED5C2BF0D4B3005F2B58 /* TestData.swift */; };
+		152EED612BF0DF98005F2B58 /* PhotoRemoteProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EED602BF0DF98005F2B58 /* PhotoRemoteProviderTests.swift */; };
+		152EED662BF0E2C2005F2B58 /* PhotoDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EED652BF0E2C2005F2B58 /* PhotoDetailViewModelTests.swift */; };
+		152EED6C2BF111D8005F2B58 /* FavoriteViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EED6B2BF111D8005F2B58 /* FavoriteViewModelTests.swift */; };
+		152EED6E2BF11262005F2B58 /* MockPhotoDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EED6D2BF11262005F2B58 /* MockPhotoDetailsDataSource.swift */; };
+		152EED722BF117C9005F2B58 /* PhotoDetailsLocalDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EED712BF117C9005F2B58 /* PhotoDetailsLocalDataSourceTests.swift */; };
+		15DCE4282BEC141500804E28 /* VerimiPhotoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4272BEC141500804E28 /* VerimiPhotoAppApp.swift */; };
+		15DCE42C2BEC141700804E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DCE42B2BEC141700804E28 /* Assets.xcassets */; };
+		15DCE42F2BEC141700804E28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DCE42E2BEC141700804E28 /* Preview Assets.xcassets */; };
+		15DCE4432BEC141700804E28 /* VerimiPhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4422BEC141700804E28 /* VerimiPhotoAppUITests.swift */; };
+		15DCE4452BEC141700804E28 /* VerimiPhotoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4442BEC141700804E28 /* VerimiPhotoAppUITestsLaunchTests.swift */; };
+		15DCE4542BEC152400804E28 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4532BEC152400804E28 /* MainTabView.swift */; };
+		15DCE45C2BEC15B300804E28 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE45B2BEC15B300804E28 /* PhotoGalleryView.swift */; };
+		15DCE45E2BEC15CF00804E28 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE45D2BEC15CF00804E28 /* FavoriteView.swift */; };
+		15DCE4612BEC1D9D00804E28 /* PhotoGalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4602BEC1D9D00804E28 /* PhotoGalleryViewModel.swift */; };
+		15DCE4872BED653200804E28 /* PhotoRemoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4862BED653200804E28 /* PhotoRemoteProvider.swift */; };
+		15DCE48A2BED663900804E28 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4892BED663900804E28 /* PhotoModel.swift */; };
+		15DCE48F2BED677E00804E28 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE48E2BED677E00804E28 /* HTTPDataDownloader.swift */; };
+		15DCE4912BED67A800804E28 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4902BED67A800804E28 /* NetworkError.swift */; };
+		15DCE4932BEE2B4200804E28 /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4922BEE2B4200804E28 /* PhotoItem.swift */; };
+		15DCE4972BEE569300804E28 /* PhotoPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4962BEE569300804E28 /* PhotoPlaceholderView.swift */; };
+		15DCE49D2BEE7F8E00804E28 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 15DCE49C2BEE7F8E00804E28 /* SDWebImageSwiftUI */; };
+		15DCE4A12BEE826100804E28 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4A02BEE826100804E28 /* PhotoDetailView.swift */; };
+		15DCE4A52BEEB45F00804E28 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4A42BEEB45F00804E28 /* Photo.swift */; };
+		15DCE4A72BEEBEE100804E28 /* PhotoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4A62BEEBEE100804E28 /* PhotoDetailViewModel.swift */; };
+		15DCE4AB2BEEC04600804E28 /* PhotoDetailsLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4AA2BEEC04600804E28 /* PhotoDetailsLocalDataSource.swift */; };
+		15DCE4B22BEFD52800804E28 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4B12BEFD52800804E28 /* FavoriteViewModel.swift */; };
+		15DCE4B42BF0032600804E28 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DCE4B32BF0032600804E28 /* ErrorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15DCE4352BEC141700804E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15DCE41C2BEC141500804E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DCE4232BEC141500804E28;
+			remoteInfo = VerimiPhotoApp;
+		};
+		15DCE43F2BEC141700804E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15DCE41C2BEC141500804E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DCE4232BEC141500804E28;
+			remoteInfo = VerimiPhotoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152EED4F2BF01636005F2B58 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		152EED572BF0B9A3005F2B58 /* PhotoGalleryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryViewModelTests.swift; sourceTree = "<group>"; };
+		152EED5A2BF0D4A6005F2B58 /* TestDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloader.swift; sourceTree = "<group>"; };
+		152EED5C2BF0D4B3005F2B58 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		152EED602BF0DF98005F2B58 /* PhotoRemoteProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRemoteProviderTests.swift; sourceTree = "<group>"; };
+		152EED652BF0E2C2005F2B58 /* PhotoDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewModelTests.swift; sourceTree = "<group>"; };
+		152EED6B2BF111D8005F2B58 /* FavoriteViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModelTests.swift; sourceTree = "<group>"; };
+		152EED6D2BF11262005F2B58 /* MockPhotoDetailsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPhotoDetailsDataSource.swift; sourceTree = "<group>"; };
+		152EED712BF117C9005F2B58 /* PhotoDetailsLocalDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsLocalDataSourceTests.swift; sourceTree = "<group>"; };
+		15DCE4242BEC141500804E28 /* VerimiPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerimiPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DCE4272BEC141500804E28 /* VerimiPhotoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerimiPhotoAppApp.swift; sourceTree = "<group>"; };
+		15DCE42B2BEC141700804E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15DCE42E2BEC141700804E28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15DCE4342BEC141700804E28 /* VerimiPhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerimiPhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DCE43E2BEC141700804E28 /* VerimiPhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerimiPhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DCE4422BEC141700804E28 /* VerimiPhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerimiPhotoAppUITests.swift; sourceTree = "<group>"; };
+		15DCE4442BEC141700804E28 /* VerimiPhotoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerimiPhotoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15DCE4532BEC152400804E28 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		15DCE45B2BEC15B300804E28 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
+		15DCE45D2BEC15CF00804E28 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		15DCE4602BEC1D9D00804E28 /* PhotoGalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryViewModel.swift; sourceTree = "<group>"; };
+		15DCE4862BED653200804E28 /* PhotoRemoteProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRemoteProvider.swift; sourceTree = "<group>"; };
+		15DCE4892BED663900804E28 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		15DCE48E2BED677E00804E28 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
+		15DCE4902BED67A800804E28 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		15DCE4922BEE2B4200804E28 /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
+		15DCE4962BEE569300804E28 /* PhotoPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPlaceholderView.swift; sourceTree = "<group>"; };
+		15DCE4A02BEE826100804E28 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		15DCE4A42BEEB45F00804E28 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		15DCE4A62BEEBEE100804E28 /* PhotoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewModel.swift; sourceTree = "<group>"; };
+		15DCE4AA2BEEC04600804E28 /* PhotoDetailsLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsLocalDataSource.swift; sourceTree = "<group>"; };
+		15DCE4B12BEFD52800804E28 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		15DCE4B32BF0032600804E28 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DCE4212BEC141500804E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DCE49D2BEE7F8E00804E28 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DCE4312BEC141700804E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DCE43B2BEC141700804E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152EED512BF0B5F0005F2B58 /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4B32BF0032600804E28 /* ErrorView.swift */,
+				152EED4F2BF01636005F2B58 /* ErrorWrapper.swift */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		152EED522BF0B603005F2B58 /* PhotoPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4962BEE569300804E28 /* PhotoPlaceholderView.swift */,
+			);
+			path = PhotoPlaceholder;
+			sourceTree = "<group>";
+		};
+		152EED532BF0B952005F2B58 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				152EED632BF0E29A005F2B58 /* PhotoDetail */,
+				152EED622BF0E290005F2B58 /* Favorite */,
+				152EED542BF0B962005F2B58 /* PhotoGallery */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		152EED542BF0B962005F2B58 /* PhotoGallery */ = {
+			isa = PBXGroup;
+			children = (
+				152EED5E2BF0DF68005F2B58 /* Data */,
+				152EED552BF0B970005F2B58 /* Presentation */,
+			);
+			path = PhotoGallery;
+			sourceTree = "<group>";
+		};
+		152EED552BF0B970005F2B58 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				152EED562BF0B97C005F2B58 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		152EED562BF0B97C005F2B58 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				152EED572BF0B9A3005F2B58 /* PhotoGalleryViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		152EED592BF0D490005F2B58 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				152EED5A2BF0D4A6005F2B58 /* TestDownloader.swift */,
+				152EED5C2BF0D4B3005F2B58 /* TestData.swift */,
+				152EED6D2BF11262005F2B58 /* MockPhotoDetailsDataSource.swift */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		152EED5E2BF0DF68005F2B58 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				152EED5F2BF0DF72005F2B58 /* DataSource */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		152EED5F2BF0DF72005F2B58 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				152EED602BF0DF98005F2B58 /* PhotoRemoteProviderTests.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		152EED622BF0E290005F2B58 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				152EED692BF111C3005F2B58 /* Presentation */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		152EED632BF0E29A005F2B58 /* PhotoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				152EED732BF12171005F2B58 /* Presentations */,
+				152EED6F2BF1179A005F2B58 /* Data */,
+			);
+			path = PhotoDetail;
+			sourceTree = "<group>";
+		};
+		152EED642BF0E2B0005F2B58 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				152EED652BF0E2C2005F2B58 /* PhotoDetailViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		152EED672BF11179005F2B58 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4B02BEFD51000804E28 /* ViewModel */,
+				15DCE4582BEC158D00804E28 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		152EED682BF1119E005F2B58 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4A22BEEB43700804E28 /* ViewModel */,
+				15DCE49F2BEE824C00804E28 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		152EED692BF111C3005F2B58 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				152EED6A2BF111CA005F2B58 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		152EED6A2BF111CA005F2B58 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				152EED6B2BF111D8005F2B58 /* FavoriteViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		152EED6F2BF1179A005F2B58 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				152EED702BF117A1005F2B58 /* DataSource */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		152EED702BF117A1005F2B58 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				152EED712BF117C9005F2B58 /* PhotoDetailsLocalDataSourceTests.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		152EED732BF12171005F2B58 /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				152EED642BF0E2B0005F2B58 /* ViewModel */,
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
+		15DCE41B2BEC141500804E28 = {
+			isa = PBXGroup;
+			children = (
+				15DCE4262BEC141500804E28 /* VerimiPhotoApp */,
+				15DCE4372BEC141700804E28 /* VerimiPhotoAppTests */,
+				15DCE4412BEC141700804E28 /* VerimiPhotoAppUITests */,
+				15DCE4252BEC141500804E28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15DCE4252BEC141500804E28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4242BEC141500804E28 /* VerimiPhotoApp.app */,
+				15DCE4342BEC141700804E28 /* VerimiPhotoAppTests.xctest */,
+				15DCE43E2BEC141700804E28 /* VerimiPhotoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15DCE4262BEC141500804E28 /* VerimiPhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4552BEC156A00804E28 /* Modules */,
+				15DCE4512BEC150900804E28 /* Core */,
+				15DCE4272BEC141500804E28 /* VerimiPhotoAppApp.swift */,
+				15DCE42B2BEC141700804E28 /* Assets.xcassets */,
+				15DCE42D2BEC141700804E28 /* Preview Content */,
+			);
+			path = VerimiPhotoApp;
+			sourceTree = "<group>";
+		};
+		15DCE42D2BEC141700804E28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE42E2BEC141700804E28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15DCE4372BEC141700804E28 /* VerimiPhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				152EED592BF0D490005F2B58 /* TestData */,
+				152EED532BF0B952005F2B58 /* Modules */,
+			);
+			path = VerimiPhotoAppTests;
+			sourceTree = "<group>";
+		};
+		15DCE4412BEC141700804E28 /* VerimiPhotoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4422BEC141700804E28 /* VerimiPhotoAppUITests.swift */,
+				15DCE4442BEC141700804E28 /* VerimiPhotoAppUITestsLaunchTests.swift */,
+			);
+			path = VerimiPhotoAppUITests;
+			sourceTree = "<group>";
+		};
+		15DCE4512BEC150900804E28 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4942BEE567900804E28 /* Common */,
+				15DCE48D2BED674D00804E28 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		15DCE4522BEC151700804E28 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4532BEC152400804E28 /* MainTabView.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		15DCE4552BEC156A00804E28 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4522BEC151700804E28 /* MainTabBar */,
+				15DCE49E2BEE824200804E28 /* PhotoDetail */,
+				15DCE4572BEC158300804E28 /* Favorite */,
+				15DCE4562BEC157700804E28 /* PhotoGallery */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		15DCE4562BEC157700804E28 /* PhotoGallery */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4842BED64CC00804E28 /* Data */,
+				15DCE4822BED647A00804E28 /* Presentation */,
+			);
+			path = PhotoGallery;
+			sourceTree = "<group>";
+		};
+		15DCE4572BEC158300804E28 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				152EED672BF11179005F2B58 /* Presentation */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		15DCE4582BEC158D00804E28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE45D2BEC15CF00804E28 /* FavoriteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15DCE4592BEC159300804E28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE45B2BEC15B300804E28 /* PhotoGalleryView.swift */,
+				15DCE4922BEE2B4200804E28 /* PhotoItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15DCE45F2BEC1D7C00804E28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4602BEC1D9D00804E28 /* PhotoGalleryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		15DCE4822BED647A00804E28 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4592BEC159300804E28 /* View */,
+				15DCE45F2BEC1D7C00804E28 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		15DCE4842BED64CC00804E28 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4882BED661C00804E28 /* Model */,
+				15DCE4852BED64D400804E28 /* DataSource */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		15DCE4852BED64D400804E28 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4862BED653200804E28 /* PhotoRemoteProvider.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		15DCE4882BED661C00804E28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4892BED663900804E28 /* PhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15DCE48D2BED674D00804E28 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE48E2BED677E00804E28 /* HTTPDataDownloader.swift */,
+				15DCE4902BED67A800804E28 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		15DCE4942BEE567900804E28 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4952BEE567F00804E28 /* CommonViews */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		15DCE4952BEE567F00804E28 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				152EED522BF0B603005F2B58 /* PhotoPlaceholder */,
+				152EED512BF0B5F0005F2B58 /* ErrorView */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		15DCE49E2BEE824200804E28 /* PhotoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				152EED682BF1119E005F2B58 /* Presentation */,
+				15DCE4A82BEEBFE100804E28 /* Data */,
+				15DCE4A32BEEB43E00804E28 /* Model */,
+			);
+			path = PhotoDetail;
+			sourceTree = "<group>";
+		};
+		15DCE49F2BEE824C00804E28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4A02BEE826100804E28 /* PhotoDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15DCE4A22BEEB43700804E28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4A62BEEBEE100804E28 /* PhotoDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		15DCE4A32BEEB43E00804E28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4A42BEEB45F00804E28 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15DCE4A82BEEBFE100804E28 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4A92BEEBFEC00804E28 /* DataSource */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		15DCE4A92BEEBFEC00804E28 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4AA2BEEC04600804E28 /* PhotoDetailsLocalDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		15DCE4B02BEFD51000804E28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15DCE4B12BEFD52800804E28 /* FavoriteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15DCE4232BEC141500804E28 /* VerimiPhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DCE4482BEC141700804E28 /* Build configuration list for PBXNativeTarget "VerimiPhotoApp" */;
+			buildPhases = (
+				15DCE4202BEC141500804E28 /* Sources */,
+				15DCE4212BEC141500804E28 /* Frameworks */,
+				15DCE4222BEC141500804E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerimiPhotoApp;
+			packageProductDependencies = (
+				15DCE49C2BEE7F8E00804E28 /* SDWebImageSwiftUI */,
+			);
+			productName = VerimiPhotoApp;
+			productReference = 15DCE4242BEC141500804E28 /* VerimiPhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15DCE4332BEC141700804E28 /* VerimiPhotoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DCE44B2BEC141700804E28 /* Build configuration list for PBXNativeTarget "VerimiPhotoAppTests" */;
+			buildPhases = (
+				15DCE4302BEC141700804E28 /* Sources */,
+				15DCE4312BEC141700804E28 /* Frameworks */,
+				15DCE4322BEC141700804E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DCE4362BEC141700804E28 /* PBXTargetDependency */,
+			);
+			name = VerimiPhotoAppTests;
+			productName = VerimiPhotoAppTests;
+			productReference = 15DCE4342BEC141700804E28 /* VerimiPhotoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15DCE43D2BEC141700804E28 /* VerimiPhotoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DCE44E2BEC141700804E28 /* Build configuration list for PBXNativeTarget "VerimiPhotoAppUITests" */;
+			buildPhases = (
+				15DCE43A2BEC141700804E28 /* Sources */,
+				15DCE43B2BEC141700804E28 /* Frameworks */,
+				15DCE43C2BEC141700804E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DCE4402BEC141700804E28 /* PBXTargetDependency */,
+			);
+			name = VerimiPhotoAppUITests;
+			productName = VerimiPhotoAppUITests;
+			productReference = 15DCE43E2BEC141700804E28 /* VerimiPhotoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15DCE41C2BEC141500804E28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					15DCE4232BEC141500804E28 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					15DCE4332BEC141700804E28 = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+						TestTargetID = 15DCE4232BEC141500804E28;
+					};
+					15DCE43D2BEC141700804E28 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 15DCE4232BEC141500804E28;
+					};
+				};
+			};
+			buildConfigurationList = 15DCE41F2BEC141500804E28 /* Build configuration list for PBXProject "VerimiPhotoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15DCE41B2BEC141500804E28;
+			packageReferences = (
+				15DCE49B2BEE7F8E00804E28 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 15DCE4252BEC141500804E28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DCE4232BEC141500804E28 /* VerimiPhotoApp */,
+				15DCE4332BEC141700804E28 /* VerimiPhotoAppTests */,
+				15DCE43D2BEC141700804E28 /* VerimiPhotoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15DCE4222BEC141500804E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DCE42F2BEC141700804E28 /* Preview Assets.xcassets in Resources */,
+				15DCE42C2BEC141700804E28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DCE4322BEC141700804E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DCE43C2BEC141700804E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15DCE4202BEC141500804E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DCE4B22BEFD52800804E28 /* FavoriteViewModel.swift in Sources */,
+				15DCE4B42BF0032600804E28 /* ErrorView.swift in Sources */,
+				15DCE4282BEC141500804E28 /* VerimiPhotoAppApp.swift in Sources */,
+				15DCE4A12BEE826100804E28 /* PhotoDetailView.swift in Sources */,
+				15DCE4932BEE2B4200804E28 /* PhotoItem.swift in Sources */,
+				15DCE4542BEC152400804E28 /* MainTabView.swift in Sources */,
+				15DCE4872BED653200804E28 /* PhotoRemoteProvider.swift in Sources */,
+				152EED502BF01636005F2B58 /* ErrorWrapper.swift in Sources */,
+				15DCE4972BEE569300804E28 /* PhotoPlaceholderView.swift in Sources */,
+				15DCE4612BEC1D9D00804E28 /* PhotoGalleryViewModel.swift in Sources */,
+				15DCE45E2BEC15CF00804E28 /* FavoriteView.swift in Sources */,
+				15DCE45C2BEC15B300804E28 /* PhotoGalleryView.swift in Sources */,
+				15DCE48F2BED677E00804E28 /* HTTPDataDownloader.swift in Sources */,
+				15DCE4A52BEEB45F00804E28 /* Photo.swift in Sources */,
+				15DCE48A2BED663900804E28 /* PhotoModel.swift in Sources */,
+				15DCE4AB2BEEC04600804E28 /* PhotoDetailsLocalDataSource.swift in Sources */,
+				15DCE4A72BEEBEE100804E28 /* PhotoDetailViewModel.swift in Sources */,
+				15DCE4912BED67A800804E28 /* NetworkError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DCE4302BEC141700804E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152EED662BF0E2C2005F2B58 /* PhotoDetailViewModelTests.swift in Sources */,
+				152EED5D2BF0D4B3005F2B58 /* TestData.swift in Sources */,
+				152EED722BF117C9005F2B58 /* PhotoDetailsLocalDataSourceTests.swift in Sources */,
+				152EED6E2BF11262005F2B58 /* MockPhotoDetailsDataSource.swift in Sources */,
+				152EED6C2BF111D8005F2B58 /* FavoriteViewModelTests.swift in Sources */,
+				152EED612BF0DF98005F2B58 /* PhotoRemoteProviderTests.swift in Sources */,
+				152EED5B2BF0D4A6005F2B58 /* TestDownloader.swift in Sources */,
+				152EED582BF0B9A3005F2B58 /* PhotoGalleryViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DCE43A2BEC141700804E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DCE4432BEC141700804E28 /* VerimiPhotoAppUITests.swift in Sources */,
+				15DCE4452BEC141700804E28 /* VerimiPhotoAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15DCE4362BEC141700804E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DCE4232BEC141500804E28 /* VerimiPhotoApp */;
+			targetProxy = 15DCE4352BEC141700804E28 /* PBXContainerItemProxy */;
+		};
+		15DCE4402BEC141700804E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DCE4232BEC141500804E28 /* VerimiPhotoApp */;
+			targetProxy = 15DCE43F2BEC141700804E28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15DCE4462BEC141700804E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15DCE4472BEC141700804E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15DCE4492BEC141700804E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VerimiPhotoApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankajapps.VerimiPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15DCE44A2BEC141700804E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VerimiPhotoApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankajapps.VerimiPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15DCE44C2BEC141700804E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankajapps.VerimiPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerimiPhotoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerimiPhotoApp";
+			};
+			name = Debug;
+		};
+		15DCE44D2BEC141700804E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankajapps.VerimiPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerimiPhotoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerimiPhotoApp";
+			};
+			name = Release;
+		};
+		15DCE44F2BEC141700804E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankajapps.VerimiPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerimiPhotoApp;
+			};
+			name = Debug;
+		};
+		15DCE4502BEC141700804E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pankajapps.VerimiPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerimiPhotoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15DCE41F2BEC141500804E28 /* Build configuration list for PBXProject "VerimiPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DCE4462BEC141700804E28 /* Debug */,
+				15DCE4472BEC141700804E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DCE4482BEC141700804E28 /* Build configuration list for PBXNativeTarget "VerimiPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DCE4492BEC141700804E28 /* Debug */,
+				15DCE44A2BEC141700804E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DCE44B2BEC141700804E28 /* Build configuration list for PBXNativeTarget "VerimiPhotoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DCE44C2BEC141700804E28 /* Debug */,
+				15DCE44D2BEC141700804E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DCE44E2BEC141700804E28 /* Build configuration list for PBXNativeTarget "VerimiPhotoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DCE44F2BEC141700804E28 /* Debug */,
+				15DCE4502BEC141700804E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15DCE49B2BEE7F8E00804E28 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15DCE49C2BEE7F8E00804E28 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15DCE49B2BEE7F8E00804E28 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 15DCE41C2BEC141500804E28 /* Project object */;
+}
